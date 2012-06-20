@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<script type="text/javascript" src="prototype.js"></script>/--!>
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <script>
+        sp = getSpotifyApi(1); 
+        playlister = sp.require('playlister');
+        playlister.init();
+        
+        console.log("this should be first");
+    </script>
+    <style>
+        @import url('sp://import/css/eve.css');
+        @import url('sp://import/css/list.css');
+        @import url('sp://import/css/api.css');
+    </style>
+    <meta charset="utf-8">
+    <title>Playlister</title>
+</head>
+<body>
+	<button class="sp-button" onclick="playlister.reload();">Reload</button>
+	<button class="sp-button" onclick="playlister.filterPl();">Make Danceable</button>
+</body> 
+</html>
+

@@ -1,0 +1,23 @@
+{
+    "VendorIdentifier": "com.tobytkershaw",
+    "BundleVersion": "0.1",
+    "BundleIdentifier": "playlister",
+    "RequiredInterface": 1,
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "random.png"
+	},
+	"AppName": {
+		"en": "playlister"
+	},
+	"AppDescription": {
+	        "en": "fun with playlists"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://ws.audioscrobbler.com",
+		"http://developer.echonest.com/"
+	]
+}

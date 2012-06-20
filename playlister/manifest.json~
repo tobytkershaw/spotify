@@ -1,0 +1,22 @@
+{
+    "VendorIdentifier": "com.tobytkershaw",
+    "BundleVersion": "0.1",
+    "BundleIdentifier": "random",
+    "RequiredInterface": 1,
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "random.png"
+	},
+	"AppName": {
+		"en": "Random"
+	},
+	"AppDescription": {
+	        "en": "Makes a properly random playlist from Starred"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://ws.audioscrobbler.com"
+	]
+}
